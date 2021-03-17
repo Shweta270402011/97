@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Schools</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="Main.js"></script>
+</head>
+<body class="body_background">
+
+<center>
+
+<div class="header text-center container-fluid">
+  <h1>Online Schools</h1>
+  <hr>
+  <p>Let's learn virtually</p>
+</div>
+
+
+<img src="online classroom.jpg" class="img-responsive"> 
+<br><br><br>
+<form class="form-inline">
+    <div class="input-group">
+      <input type="text" class="form-control" size="50" id="user_name" placeholder="Enter Student Name" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-primary login_button" onclick="addUser()">Log in</button>
+      </div>
+    </div>
+  </form>
+  
+  <br><br>
+	</center>
+</body>
+</html>

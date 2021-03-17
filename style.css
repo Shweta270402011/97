@@ -1,0 +1,101 @@
+ 
+hr{
+width:100%;
+}
+body,.body_background
+{
+text-align:center;
+
+  /* The image used */
+  background-image:green;
+
+ 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header
+{ 
+  color: #fff;
+	font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 30px;
+    padding: 50px 25px;
+}
+.header p{
+font-size:30px;
+font-family:arial;
+color:purple;
+margin-bottom:80px;
+}
+
+.container-fluid {
+
+   padding: 10px 10px;
+  background-color:black;
+  height:150px;
+  width:50%;
+  margin-bottom:30px;
+}
+
+.login_button
+{
+	width: 100%;
+    border-radius: 15px; 
+    background-color:purple;
+    margin-bottom:200px;
+}
+
+img{
+border-radius:20px;
+height:400px;
+width:400px;
+}
+.input_div_room_page label
+{
+	font-family:palatino;
+    color: white;
+    font-size: 20px;
+    font-size: 20px;
+}
+#user_name{
+font-family: 'Lobster', cursive;
+}
+
+
+
+#logout{
+float:right;
+height : 30px;
+
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+.color_white{
+color:white;
+}
+
+#output
+{
+	padding: 10px; width:80%;border-radius: 15px; color:black;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+
